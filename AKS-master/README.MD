@@ -1,4 +1,4 @@
-No Portal Azure, criar um Kubernet Service. 
+Logar no Portal Azure, criar um Kubernet Service. 
  
  az login
  az aks get-credentials --name app-k8s --resource-group app-rg
@@ -30,20 +30,18 @@ create table categorias (id integer auto_increment primary key, nome varchar(255
 insert into categorias (nome) values ("Motos"), ("Carros"), ("Games"), ("Tecnologia");
 alter table produtos add column categoria_id integer;
 update produtos set categoria_id = 1;
----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 exit 
 exit
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 
 Ver se o serviço está Rodando. 
+
 kubectl get service
 
-Testar pelo IP
+Testar pelo aplicação pelo IP
 
----- Sucesso 
-
-Mikube é 1 clustes simples, so pra desenvolvimento. 
-
+-Sucesso 
 
 ------- Persistencia
 kubectl get persistentvolume
