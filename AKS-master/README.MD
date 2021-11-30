@@ -39,5 +39,8 @@ Exemplo: http://20.81.62.106/
 
 add 3 ou mais replicas no deployment.
 
+  **spec:
+    replicas: 3**
+
 ## kubectl apply -f deployment.yaml
 
