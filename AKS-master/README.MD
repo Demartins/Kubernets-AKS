@@ -44,3 +44,6 @@ add 3 ou mais replicas no deployment.
 
 ## kubectl apply -f deployment.yaml
 
+Ver os pods escalonados. 
+## kubectl get pods 
+
