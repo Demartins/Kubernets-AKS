@@ -1,5 +1,4 @@
 # Apresentação Kubernetes com Azure AKS
-
 Primeiramente precisamos logar no Portal Azure com uma conta. 
 Logo após criar um Kubernet Service. 
  
@@ -45,5 +44,4 @@ add 3 ou mais replicas no deployment.
 ## kubectl apply -f deployment.yaml
 
 Ver os pods escalonados. 
-## kubectl get pods 
-
+## kubectl get pods
