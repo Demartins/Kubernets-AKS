@@ -7,4 +7,4 @@ spec:
     - name: container-aplicacao-loja
       image: demartins/aplicacao-loja:v1
       ports:
-        - containerPort: 80
+        - containerPort: 443
