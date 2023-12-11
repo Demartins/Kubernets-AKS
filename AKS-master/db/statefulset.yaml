@@ -16,7 +16,7 @@ spec:
             - containerPort: 3306
           env:
             - name: MYSQL_DATABASE
-              value: "loja"
+              value: "shop"
             - name: MYSQL_USER
               value: "root"
             - name: MYSQL_ALLOW_EMPTY_PASSWORD
